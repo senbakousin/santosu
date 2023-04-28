@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.logo-container {
+  padding: 50px 0;
+}
+.logo-container a {
+  font-size: 5rem;
+  display: block;
+  text-align: center;
+  color: black;
+}
+.navbar {
+  background-color: black;
+  padding: 30px 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar a {
+  color: white;
+}
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+}
+.category li {
+  padding: 20px 30px;
+  flex: 1 0 auto;
+}
+.category a {
+  color: black;
+}
+.slide-item img {
+  height: 30vw;
+  max-height: 550px;
+  min-height: 45px;
+	width: 30vw;
+  object-fit: cover;
+}
+@media screen and (min-width: 1000px) {
+  .spike123 > img {
+    width: 50%;
+  }
+  .spike123 > div {
+    width: 50%;
+  }
+  .spike123 {
+    display: flex;
+  }
+}
+.spike123 > div > div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.spike123 > div > div > p, .spike123 > div > div > img {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 50%;
+}
+h2 {
+  background-color: black;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+}
+.mb {
+  margin-bottom: 30px;
+}
+.mt {
+  margin-top: 30px;
+}
+#access {
+  text-align: center;
+  margin: 50px auto 0;
+}
+.NEWS {
+  margin-top: 50px;
+}
+@media screen and (max-width: 800px) {
+  .newslist {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+}
+.newslist li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 20px 10px;
+  border-top: 2px solid black;
+  line-height: 1.5;
+}
+.newslist li:last-child {
+  border-bottom: 2px solid black;
+}
+.newslist li time {
+  padding-right: 20px;
+}
+.newslist li a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+.newslist li p {
+  text-align: center;
+}
